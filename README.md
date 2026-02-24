@@ -4,4 +4,4 @@ Built from scratch I did the data generation in Julia, CNN architecture and trai
 I love criticism so any tips will be greatly appreciated.
 
 Hopefully along the way I can add a quanitfier of the amount of choas I have rather than it just being a discrete process.
--For now Project 0 talks about the importance of the project and the architecure that I intend to build for the entire process. 
+For now Project 0 talks about the importance of the project and the architecure that I intend to build for the entire process. 
