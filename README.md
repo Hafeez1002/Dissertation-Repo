@@ -8,7 +8,7 @@ I may call these different things (we shall see how the project changes over tim
 | # | File | Language | Description |
 |---|------|----------|-------------|
 | **00** | `00_project_overview.ipynb` | Python | Motivation, theoretical background, and architecture plan |
-| **01** | `01_lorenz_data_gen_true.ipynb` | Julia | Generate chaotic time series (Lorenz, Rössler, logistic map, Hénon, Mackey-Glass) |
+| **01** | `01_lorenz_data_gen_true.ipynb` | Julia | Generate chaotic time series (Lorenz series that vary in the origin and magnitude of the noise)|
 | **02** | `03_dataset_assembly.ipynb` | Python | Load Julia CSVs, window, add noise augmentation, split into train/val/test |
 | **03** | `04_cnn_architecture.ipynb` | Python | Define the 1D CNN layer by layer with full explanations |
 | **04** | `05_training_pipeline.ipynb` | Python | Train with AdamW, LR scheduling, and early stopping |
