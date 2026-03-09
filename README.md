@@ -2,14 +2,13 @@ This is the repository for all the code, packages, and methodology used for my d
 
 Hopefully along the way I can add a quantifier of the amount of chaos I have, rather than it just being a discrete process. For now, Project 0 talks about the importance of the project and the architecture that I intend to build for the entire process.
 
+I may call these different things (we shall see how the project changes over time)
 ## Project Structure
 
 | # | File | Language | Description |
 |---|------|----------|-------------|
 | **00** | `00_project_overview.ipynb` | Python | Motivation, theoretical background, and architecture plan |
 | **01** | `01_lorenz_data_gen_true.ipynb` | Julia | Generate chaotic time series (Lorenz, Rössler, logistic map, Hénon, Mackey-Glass) |
-
-I may call these different things (we shall see how the project changes over time)
 | **02** | `03_dataset_assembly.ipynb` | Python | Load Julia CSVs, window, add noise augmentation, split into train/val/test |
 | **03** | `04_cnn_architecture.ipynb` | Python | Define the 1D CNN layer by layer with full explanations |
 | **04** | `05_training_pipeline.ipynb` | Python | Train with AdamW, LR scheduling, and early stopping |
