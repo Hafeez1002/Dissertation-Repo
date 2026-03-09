@@ -7,12 +7,13 @@ Hopefully along the way I can add a quantifier of the amount of chaos I have, ra
 | # | File | Language | Description |
 |---|------|----------|-------------|
 | **00** | `00_project_overview.ipynb` | Python | Motivation, theoretical background, and architecture plan |
-| **01** | `01_deterministic_systems.jl` | Julia | Generate chaotic time series (Lorenz, Rössler, logistic map, Hénon, Mackey-Glass) |
-| **02** | `02_stochastic_processes.jl` | Julia | Generate stochastic time series (white/coloured noise, random walk, ARMA, Ornstein-Uhlenbeck) |
-| **03** | `03_dataset_assembly.ipynb` | Python | Load Julia CSVs, window, add noise augmentation, split into train/val/test |
-| **04** | `04_cnn_architecture.ipynb` | Python | Define the 1D CNN layer by layer with full explanations |
-| **05** | `05_training_pipeline.ipynb` | Python | Train with AdamW, LR scheduling, and early stopping |
-| **06** | `06_evaluation.ipynb` | Python | Test set metrics, confusion matrix, ROC curve, confidence analysis |
+| **01** | `01_lorenz_data_gen_true.ipynb` | Julia | Generate chaotic time series (Lorenz, Rössler, logistic map, Hénon, Mackey-Glass) |
+
+I may call these different things (we shall see how the project changes over time)
+| **02** | `03_dataset_assembly.ipynb` | Python | Load Julia CSVs, window, add noise augmentation, split into train/val/test |
+| **03** | `04_cnn_architecture.ipynb` | Python | Define the 1D CNN layer by layer with full explanations |
+| **04** | `05_training_pipeline.ipynb` | Python | Train with AdamW, LR scheduling, and early stopping |
+| **05** | `06_evaluation.ipynb` | Python | Test set metrics, confusion matrix, ROC curve, confidence analysis |
 
 
 
